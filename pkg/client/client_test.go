@@ -17,11 +17,11 @@ import (
 	"github.com/lightstep/tracecontext.go/traceparent"
 	"go.opencensus.io/trace"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/client"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
-	"github.com/cloudevents/sdk-go/v2/pkg/protocol"
-	cehttp "github.com/cloudevents/sdk-go/v2/pkg/protocol/http"
-	"github.com/cloudevents/sdk-go/v2/pkg/types"
+	"github.com/ian-mi/sdk-go/v2/pkg/client"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
+	"github.com/ian-mi/sdk-go/v2/pkg/protocol"
+	cehttp "github.com/ian-mi/sdk-go/v2/pkg/protocol/http"
+	"github.com/ian-mi/sdk-go/v2/pkg/types"
 )
 
 var (

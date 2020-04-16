@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/cloudevents/sdk-go/v2/pkg/client"
+	"github.com/ian-mi/sdk-go/v2/pkg/client"
 	"log"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
 )
 
 func main() {

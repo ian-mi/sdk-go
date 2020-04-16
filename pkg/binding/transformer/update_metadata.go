@@ -3,9 +3,9 @@ package transformer
 import (
 	"fmt"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	"github.com/cloudevents/sdk-go/v2/pkg/binding/spec"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding/spec"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
 )
 
 // Update cloudevents attribute (if present) using the provided function

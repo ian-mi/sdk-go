@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	"github.com/cloudevents/sdk-go/v2/pkg/binding/buffering"
-	"github.com/cloudevents/sdk-go/v2/pkg/binding/test"
-	"github.com/cloudevents/sdk-go/v2/pkg/binding/transformer"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
-	"github.com/cloudevents/sdk-go/v2/pkg/types"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding/buffering"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding/test"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding/transformer"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
+	"github.com/ian-mi/sdk-go/v2/pkg/types"
 )
 
 var M binding.Message

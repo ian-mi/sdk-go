@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/event/datacodec"
-	"github.com/cloudevents/sdk-go/v2/pkg/types"
+	"github.com/ian-mi/sdk-go/v2/pkg/event/datacodec"
+	"github.com/ian-mi/sdk-go/v2/pkg/types"
 	"github.com/google/go-cmp/cmp"
 )
 

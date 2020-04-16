@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
-	bindings "github.com/cloudevents/sdk-go/v2/pkg/protocol"
-	http "github.com/cloudevents/sdk-go/v2/pkg/protocol/http"
-	test "github.com/cloudevents/sdk-go/v2/pkg/protocol/test"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
+	bindings "github.com/ian-mi/sdk-go/v2/pkg/protocol"
+	http "github.com/ian-mi/sdk-go/v2/pkg/protocol/http"
+	test "github.com/ian-mi/sdk-go/v2/pkg/protocol/test"
 
-	. "github.com/cloudevents/sdk-go/v2/pkg/binding/test"
+	. "github.com/ian-mi/sdk-go/v2/pkg/binding/test"
 )
 
 func TestSendSkipBinary(t *testing.T) {

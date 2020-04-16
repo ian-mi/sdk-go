@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	"github.com/cloudevents/sdk-go/v2/pkg/binding/test"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding/test"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
 )
 
 func TestWriteHttpResponseWriter(t *testing.T) {

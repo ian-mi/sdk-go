@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	. "github.com/cloudevents/sdk-go/v2/pkg/binding/test"
-	"github.com/cloudevents/sdk-go/v2/pkg/protocol"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	. "github.com/ian-mi/sdk-go/v2/pkg/binding/test"
+	"github.com/ian-mi/sdk-go/v2/pkg/protocol"
 )
 
 // Simple send/receive benchmark.

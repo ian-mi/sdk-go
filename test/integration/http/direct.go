@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/client"
+	"github.com/ian-mi/sdk-go/v2/pkg/client"
 
 	"github.com/google/uuid"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cehttp "github.com/cloudevents/sdk-go/v2/pkg/protocol/http"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	cehttp "github.com/ian-mi/sdk-go/v2/pkg/protocol/http"
 )
 
 // Direct Test:

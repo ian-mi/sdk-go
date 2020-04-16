@@ -4,14 +4,14 @@ package cloudevents
 // the number of imports for simple HTTP clients.
 
 import (
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	"github.com/cloudevents/sdk-go/v2/pkg/client"
-	"github.com/cloudevents/sdk-go/v2/pkg/context"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
-	"github.com/cloudevents/sdk-go/v2/pkg/observability"
-	"github.com/cloudevents/sdk-go/v2/pkg/protocol"
-	"github.com/cloudevents/sdk-go/v2/pkg/protocol/http"
-	"github.com/cloudevents/sdk-go/v2/pkg/types"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	"github.com/ian-mi/sdk-go/v2/pkg/client"
+	"github.com/ian-mi/sdk-go/v2/pkg/context"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
+	"github.com/ian-mi/sdk-go/v2/pkg/observability"
+	"github.com/ian-mi/sdk-go/v2/pkg/protocol"
+	"github.com/ian-mi/sdk-go/v2/pkg/protocol/http"
+	"github.com/ian-mi/sdk-go/v2/pkg/types"
 )
 
 // Client

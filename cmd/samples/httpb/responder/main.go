@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/protocol"
+	"github.com/ian-mi/sdk-go/v2/pkg/protocol"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
 	"github.com/kelseyhightower/envconfig"
 )
 

@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/client"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
-	cloudeventshttp "github.com/cloudevents/sdk-go/v2/pkg/protocol/http"
-	cloudeventsnats "github.com/cloudevents/sdk-go/v2/pkg/protocol/nats"
+	"github.com/ian-mi/sdk-go/v2/pkg/client"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
+	cloudeventshttp "github.com/ian-mi/sdk-go/v2/pkg/protocol/http"
+	cloudeventsnats "github.com/ian-mi/sdk-go/v2/pkg/protocol/nats"
 	"github.com/kelseyhightower/envconfig"
 )
 

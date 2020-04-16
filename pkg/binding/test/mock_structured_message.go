@@ -6,9 +6,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	"github.com/cloudevents/sdk-go/v2/pkg/binding/format"
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding/format"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
 )
 
 // MockStructuredMessage implements a structured-mode message as a simple struct.

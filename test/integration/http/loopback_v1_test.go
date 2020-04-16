@@ -3,11 +3,11 @@ package http
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/cloudevents/sdk-go/v2/pkg/client"
+	"github.com/ian-mi/sdk-go/v2/pkg/client"
 	"testing"
 	"time"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
 )
 
 func TestClientLoopback_binary_v1tov03(t *testing.T) {

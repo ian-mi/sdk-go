@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/event"
+	"github.com/ian-mi/sdk-go/v2/pkg/event"
 )
 
 // Format marshals and unmarshals structured events to bytes.

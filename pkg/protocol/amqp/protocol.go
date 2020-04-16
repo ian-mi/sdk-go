@@ -5,9 +5,9 @@ import (
 
 	"pack.ag/amqp"
 
-	"github.com/cloudevents/sdk-go/v2/pkg/binding"
-	cecontext "github.com/cloudevents/sdk-go/v2/pkg/context"
-	"github.com/cloudevents/sdk-go/v2/pkg/protocol"
+	"github.com/ian-mi/sdk-go/v2/pkg/binding"
+	cecontext "github.com/ian-mi/sdk-go/v2/pkg/context"
+	"github.com/ian-mi/sdk-go/v2/pkg/protocol"
 )
 
 type Protocol struct {
