@@ -8,8 +8,8 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	cloudeventshttp "github.com/cloudevents/sdk-go/v2/protocol/http"
-	cloudeventsnats "github.com/cloudevents/sdk-go/v2/protocol/nats"
+	cloudeventshttp "github.com/ian-mi/sdk-go/v2/protocol/http"
+	cloudeventsnats "github.com/ian-mi/sdk-go/v2/protocol/nats"
 )
 
 type envConfig struct {

@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/event"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	"github.com/ian-mi/sdk-go/v2/event"
 	"github.com/kelseyhightower/envconfig"
 )
 

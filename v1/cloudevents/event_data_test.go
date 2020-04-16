@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	ce "github.com/cloudevents/sdk-go/v1/cloudevents"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	ce "github.com/ian-mi/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 	"github.com/google/go-cmp/cmp"
 )
 

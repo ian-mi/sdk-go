@@ -2,12 +2,12 @@ package http
 
 import (
 	"fmt"
-	"github.com/cloudevents/sdk-go/v2/client"
+	"github.com/ian-mi/sdk-go/v2/client"
 	"testing"
 	"time"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/types"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	"github.com/ian-mi/sdk-go/v2/types"
 )
 
 func TestSenderReceiver_binary_v1(t *testing.T) {

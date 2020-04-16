@@ -8,7 +8,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 )
 
 func TestRetriesNil_Is(t *testing.T) {

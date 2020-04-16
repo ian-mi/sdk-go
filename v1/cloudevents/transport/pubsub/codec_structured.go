@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cloudevents/sdk-go/v1/cloudevents"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/transport"
+	"github.com/ian-mi/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/transport"
 )
 
 // CodecStructured represents an structured http transport codec for all versions.

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/cloudevents/sdk-go/v1/binding/format"
-	"github.com/cloudevents/sdk-go/v1/binding/spec"
+	"github.com/ian-mi/sdk-go/v1/binding/format"
+	"github.com/ian-mi/sdk-go/v1/binding/spec"
 )
 
 // Encoding enum specifies the type of encodings supported by binding interfaces

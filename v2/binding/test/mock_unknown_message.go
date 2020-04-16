@@ -3,7 +3,7 @@ package test
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding"
 )
 
 type unknownMessage struct{}

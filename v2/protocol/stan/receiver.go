@@ -3,7 +3,7 @@ package stan
 import (
 	"context"
 	"fmt"
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding"
 	"github.com/nats-io/stan.go"
 	"io"
 	"sync"

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	cecontext "github.com/ian-mi/sdk-go/v2/context"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 )
 
 type Invoker interface {

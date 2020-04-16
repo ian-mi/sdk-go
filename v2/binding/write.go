@@ -3,7 +3,7 @@ package binding
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/event"
 )
 
 type eventEncodingKey int

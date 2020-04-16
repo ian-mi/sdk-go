@@ -7,9 +7,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/binding/format"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/transport"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding/format"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/transport"
 )
 
 // ExMessage is a json.RawMessage, a byte slice containing a JSON encoded event.

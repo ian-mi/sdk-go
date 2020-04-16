@@ -3,10 +3,10 @@ package datacodec
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/event/datacodec/json"
-	"github.com/cloudevents/sdk-go/v2/event/datacodec/text"
-	"github.com/cloudevents/sdk-go/v2/event/datacodec/xml"
-	"github.com/cloudevents/sdk-go/v2/observability"
+	"github.com/ian-mi/sdk-go/v2/event/datacodec/json"
+	"github.com/ian-mi/sdk-go/v2/event/datacodec/text"
+	"github.com/ian-mi/sdk-go/v2/event/datacodec/xml"
+	"github.com/ian-mi/sdk-go/v2/observability"
 )
 
 func SetObservedCodecs() {

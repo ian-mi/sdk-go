@@ -3,10 +3,10 @@ package gochan
 import (
 	"context"
 	"fmt"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 	"io"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding"
 )
 
 // Receiver implements Receiver by receiving Messages from a channel.

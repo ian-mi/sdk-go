@@ -5,8 +5,8 @@ import (
 	"context"
 	"github.com/nats-io/stan.go"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding/format"
 )
 
 // Message implements binding.Message by wrapping an *stan.Msg.

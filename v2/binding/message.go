@@ -3,7 +3,7 @@ package binding
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
+	"github.com/ian-mi/sdk-go/v2/binding/spec"
 )
 
 // MessageReader defines the read-related portion of the Message interface.

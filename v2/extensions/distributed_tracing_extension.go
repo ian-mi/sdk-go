@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/event"
 
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/ian-mi/sdk-go/v2/types"
 	"github.com/lightstep/tracecontext.go/traceparent"
 	"github.com/lightstep/tracecontext.go/tracestate"
 	"go.opencensus.io/trace"

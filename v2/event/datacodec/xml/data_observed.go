@@ -2,7 +2,7 @@ package xml
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/observability"
+	"github.com/ian-mi/sdk-go/v2/observability"
 )
 
 // DecodeObserved calls Decode and records the result.

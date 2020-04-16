@@ -2,10 +2,10 @@ package main
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 	"log"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
 )
 
 func main() {
@@ -24,7 +24,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		e := cloudevents.NewEvent()
 		e.SetType("com.cloudevents.sample.sent")
-		e.SetSource("https://github.com/cloudevents/sdk-go/v2/cmd/samples/httpb/requester")
+		e.SetSource("https://github.com/ian-mi/sdk-go/v2/cmd/samples/httpb/requester")
 		_ = e.SetData(cloudevents.ApplicationJSON, map[string]interface{}{
 			"id":      i,
 			"message": "Hello, World!",

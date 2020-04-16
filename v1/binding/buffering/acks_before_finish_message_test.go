@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	cloudevents "github.com/cloudevents/sdk-go/v1"
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	cloudevents "github.com/ian-mi/sdk-go/v1"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 )
 
 func TestWithAcksBeforeFinish(t *testing.T) {

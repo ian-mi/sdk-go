@@ -2,10 +2,10 @@ package client
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/extensions"
-	"github.com/cloudevents/sdk-go/v2/observability"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/extensions"
+	"github.com/ian-mi/sdk-go/v2/observability"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 	"go.opencensus.io/trace"
 )
 

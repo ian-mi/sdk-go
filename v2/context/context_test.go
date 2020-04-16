@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
+	cecontext "github.com/ian-mi/sdk-go/v2/context"
 	"github.com/google/go-cmp/cmp"
 )
 

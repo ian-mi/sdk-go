@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	cloudevents "github.com/cloudevents/sdk-go/v1"
-	"github.com/cloudevents/sdk-go/v1/binding"
+	cloudevents "github.com/ian-mi/sdk-go/v1"
+	"github.com/ian-mi/sdk-go/v1/binding"
 )
 
 type TranscoderTestArgs struct {

@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cepubsub "github.com/cloudevents/sdk-go/v2/protocol/pubsub"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	cepubsub "github.com/ian-mi/sdk-go/v2/protocol/pubsub"
 	"github.com/kelseyhightower/envconfig"
 )
 
@@ -44,7 +44,7 @@ func main() {
 
 	event := cloudevents.NewEvent()
 	event.SetType("com.cloudevents.sample.sent")
-	event.SetSource("github.com/cloudevents/sdk-go/cmd/samples/pubsub/sender/")
+	event.SetSource("github.com/ian-mi/sdk-go/cmd/samples/pubsub/sender/")
 	_ = event.SetData("application/json", &Example{
 		Sequence: 0,
 		Message:  "HELLO",

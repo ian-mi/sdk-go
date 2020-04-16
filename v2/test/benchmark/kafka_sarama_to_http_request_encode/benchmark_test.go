@@ -7,11 +7,11 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/test"
-	"github.com/cloudevents/sdk-go/v2/protocol/http"
-	"github.com/cloudevents/sdk-go/v2/protocol/kafka_sarama"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding/test"
+	"github.com/ian-mi/sdk-go/v2/protocol/http"
+	"github.com/ian-mi/sdk-go/v2/protocol/kafka_sarama"
 )
 
 var (

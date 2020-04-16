@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/test"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding/test"
+	"github.com/ian-mi/sdk-go/v2/event"
 )
 
 func TestAddTimeNow(t *testing.T) {

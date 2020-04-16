@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/ian-mi/sdk-go/v2/binding/format"
+	"github.com/ian-mi/sdk-go/v2/binding/spec"
+	"github.com/ian-mi/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/types"
 )
 
 // ErrCannotConvertToEvent is a generic error when a conversion of a Message to an Event fails

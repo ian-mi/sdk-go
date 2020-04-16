@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cepubsub "github.com/cloudevents/sdk-go/v2/protocol/pubsub"
-	pscontext "github.com/cloudevents/sdk-go/v2/protocol/pubsub/context"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	cepubsub "github.com/ian-mi/sdk-go/v2/protocol/pubsub"
+	pscontext "github.com/ian-mi/sdk-go/v2/protocol/pubsub/context"
 	"github.com/kelseyhightower/envconfig"
 )
 

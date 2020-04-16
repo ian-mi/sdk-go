@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/binding/test"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding/test"
 )
 
 func TestEvent(t *testing.T) {

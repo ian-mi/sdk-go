@@ -8,9 +8,9 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	cepubsub "github.com/cloudevents/sdk-go/v2/protocol/pubsub"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	cecontext "github.com/ian-mi/sdk-go/v2/context"
+	cepubsub "github.com/ian-mi/sdk-go/v2/protocol/pubsub"
 )
 
 /*
@@ -57,7 +57,7 @@ func main() {
 		ctx := cecontext.WithTopic(context.Background(), topic)
 		event := cloudevents.NewEvent()
 		event.SetType("com.cloudevents.sample.sent")
-		event.SetSource("github.com/cloudevents/sdk-go/cmd/samples/pubsub/multisender/")
+		event.SetSource("github.com/ian-mi/sdk-go/cmd/samples/pubsub/multisender/")
 		_ = event.SetData("application/json", &Example{
 			Sequence: i,
 			Message:  "HELLO " + topic,

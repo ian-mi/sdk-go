@@ -3,7 +3,7 @@ package pubsub
 import (
 	"encoding/json"
 
-	"github.com/cloudevents/sdk-go/v1/cloudevents/transport"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/transport"
 )
 
 // type check that this transport message impl matches the contract

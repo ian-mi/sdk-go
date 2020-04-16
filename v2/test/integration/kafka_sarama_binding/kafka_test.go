@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	. "github.com/cloudevents/sdk-go/v2/binding/test"
-	"github.com/cloudevents/sdk-go/v2/event"
-	bindings "github.com/cloudevents/sdk-go/v2/protocol"
-	"github.com/cloudevents/sdk-go/v2/protocol/kafka_sarama"
-	"github.com/cloudevents/sdk-go/v2/protocol/test"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	. "github.com/ian-mi/sdk-go/v2/binding/test"
+	"github.com/ian-mi/sdk-go/v2/event"
+	bindings "github.com/ian-mi/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol/kafka_sarama"
+	"github.com/ian-mi/sdk-go/v2/protocol/test"
 )
 
 const (

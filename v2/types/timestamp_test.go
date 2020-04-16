@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/ian-mi/sdk-go/v2/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 )
 
 // ReceiveFull is the signature of a fn to be invoked for incoming cloudevents.

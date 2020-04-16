@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	cloudevents "github.com/cloudevents/sdk-go/v1"
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/binding/test"
+	cloudevents "github.com/ian-mi/sdk-go/v1"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding/test"
 )
 
 func TestTransportSend(t *testing.T) {

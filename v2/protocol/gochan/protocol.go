@@ -2,8 +2,8 @@ package gochan
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 )
 
 const (

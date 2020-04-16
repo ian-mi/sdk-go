@@ -7,17 +7,17 @@ import (
 	"os"
 	"testing"
 
-	amqp2 "github.com/cloudevents/sdk-go/v2/protocol/amqp"
+	amqp2 "github.com/ian-mi/sdk-go/v2/protocol/amqp"
 
 	"github.com/Azure/go-amqp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	. "github.com/cloudevents/sdk-go/v2/binding/test"
-	"github.com/cloudevents/sdk-go/v2/event"
-	bindings "github.com/cloudevents/sdk-go/v2/protocol"
-	"github.com/cloudevents/sdk-go/v2/protocol/test"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	. "github.com/ian-mi/sdk-go/v2/binding/test"
+	"github.com/ian-mi/sdk-go/v2/event"
+	bindings "github.com/ian-mi/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol/test"
 )
 
 func TestSendSkipBinary(t *testing.T) {

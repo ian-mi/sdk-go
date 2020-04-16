@@ -6,9 +6,9 @@ import (
 	nethttp "net/http"
 	"strings"
 
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/binding/format"
-	"github.com/cloudevents/sdk-go/v1/binding/spec"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding/format"
+	"github.com/ian-mi/sdk-go/v1/binding/spec"
 )
 
 const prefix = "Ce-"

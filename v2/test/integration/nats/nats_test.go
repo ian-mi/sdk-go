@@ -2,12 +2,12 @@ package nats
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	. "github.com/cloudevents/sdk-go/v2/binding/test"
-	"github.com/cloudevents/sdk-go/v2/event"
-	bindings "github.com/cloudevents/sdk-go/v2/protocol"
-	ce_nats "github.com/cloudevents/sdk-go/v2/protocol/nats"
-	"github.com/cloudevents/sdk-go/v2/protocol/test"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	. "github.com/ian-mi/sdk-go/v2/binding/test"
+	"github.com/ian-mi/sdk-go/v2/event"
+	bindings "github.com/ian-mi/sdk-go/v2/protocol"
+	ce_nats "github.com/ian-mi/sdk-go/v2/protocol/nats"
+	"github.com/ian-mi/sdk-go/v2/protocol/test"
 	"github.com/google/uuid"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/assert"

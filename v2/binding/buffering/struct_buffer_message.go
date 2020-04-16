@@ -7,8 +7,8 @@ import (
 
 	"github.com/valyala/bytebufferpool"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding/format"
 )
 
 var structMessagePool bytebufferpool.Pool

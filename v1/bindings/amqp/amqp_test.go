@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"pack.ag/amqp"
 
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/binding/test"
-	ce "github.com/cloudevents/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding/test"
+	ce "github.com/ian-mi/sdk-go/v1/cloudevents"
 )
 
 func TestSendSkipBinary(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cloudevents/sdk-go/v1/binding/format"
-	ce "github.com/cloudevents/sdk-go/v1/cloudevents"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	"github.com/ian-mi/sdk-go/v1/binding/format"
+	ce "github.com/ian-mi/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 )
 
 func TestJSON(t *testing.T) {

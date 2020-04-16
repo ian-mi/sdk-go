@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	ce_stan "github.com/cloudevents/sdk-go/v2/protocol/stan"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	ce_stan "github.com/ian-mi/sdk-go/v2/protocol/stan"
 	"log"
 )
 
@@ -23,7 +23,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		e := cloudevents.NewEvent()
 		e.SetType("com.cloudevents.sample.sent")
-		e.SetSource("https://github.com/cloudevents/sdk-go/v2/cmd/samples/stan/sender")
+		e.SetSource("https://github.com/ian-mi/sdk-go/v2/cmd/samples/stan/sender")
 		_ = e.SetData(cloudevents.ApplicationJSON, map[string]interface{}{
 			"id":      i,
 			"message": "Hello, World!",

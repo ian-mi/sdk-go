@@ -1,6 +1,6 @@
 package binding
 
-import "github.com/cloudevents/sdk-go/v2/binding/spec"
+import "github.com/ian-mi/sdk-go/v2/binding/spec"
 
 type finishMessage struct {
 	Message

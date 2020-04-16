@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	cecontext "github.com/ian-mi/sdk-go/v2/context"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 )
 
 func (p *Protocol) do(ctx context.Context, req *http.Request) (binding.Message, error) {

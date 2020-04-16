@@ -1,6 +1,6 @@
 package amqp
 
-import "github.com/cloudevents/sdk-go/v1/binding"
+import "github.com/ian-mi/sdk-go/v1/binding"
 
 type SenderOptionFunc func(sender *Sender)
 

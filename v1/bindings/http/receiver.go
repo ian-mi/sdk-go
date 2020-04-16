@@ -7,7 +7,7 @@ import (
 	"net/http"
 	nethttp "net/http"
 
-	"github.com/cloudevents/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding"
 )
 
 type msgErr struct {

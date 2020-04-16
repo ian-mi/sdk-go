@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 )
 
 // NewRetriesResult returns a http RetriesResult that should be used as

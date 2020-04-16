@@ -2,12 +2,12 @@ package stan
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	. "github.com/cloudevents/sdk-go/v2/binding/test"
-	"github.com/cloudevents/sdk-go/v2/event"
-	bindings "github.com/cloudevents/sdk-go/v2/protocol"
-	ce_stan "github.com/cloudevents/sdk-go/v2/protocol/stan"
-	"github.com/cloudevents/sdk-go/v2/protocol/test"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	. "github.com/ian-mi/sdk-go/v2/binding/test"
+	"github.com/ian-mi/sdk-go/v2/event"
+	bindings "github.com/ian-mi/sdk-go/v2/protocol"
+	ce_stan "github.com/ian-mi/sdk-go/v2/protocol/stan"
+	"github.com/ian-mi/sdk-go/v2/protocol/test"
 	"github.com/google/uuid"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/stan.go"

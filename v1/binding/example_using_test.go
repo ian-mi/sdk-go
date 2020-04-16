@@ -6,8 +6,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/cloudevents/sdk-go/v1/cloudevents"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/client"
+	"github.com/ian-mi/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/client"
 )
 
 const count = 3 // Example ends after this many events.

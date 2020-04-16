@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/event"
-	cepubsub "github.com/cloudevents/sdk-go/v2/protocol/pubsub"
-	pscontext "github.com/cloudevents/sdk-go/v2/protocol/pubsub/context"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	"github.com/ian-mi/sdk-go/v2/event"
+	cepubsub "github.com/ian-mi/sdk-go/v2/protocol/pubsub"
+	pscontext "github.com/ian-mi/sdk-go/v2/protocol/pubsub/context"
 	"github.com/kelseyhightower/envconfig"
 )
 

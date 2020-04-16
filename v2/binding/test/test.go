@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding/format"
+	"github.com/ian-mi/sdk-go/v2/binding/spec"
+	"github.com/ian-mi/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/types"
 )
 
 // NameOf generates a string test name from x, esp. for ce.Event and ce.Message.

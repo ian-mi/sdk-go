@@ -9,7 +9,7 @@ import (
 
 	errors2 "github.com/pkg/errors"
 
-	"github.com/cloudevents/sdk-go/v2/observability"
+	"github.com/ian-mi/sdk-go/v2/observability"
 )
 
 // MarshalJSON implements a custom json marshal method used when this type is

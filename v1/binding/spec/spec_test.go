@@ -3,8 +3,8 @@ package spec_test
 import (
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v1/binding/spec"
-	ce "github.com/cloudevents/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/binding/spec"
+	ce "github.com/ian-mi/sdk-go/v1/cloudevents"
 	"github.com/stretchr/testify/assert"
 )
 

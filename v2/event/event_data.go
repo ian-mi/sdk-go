@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/cloudevents/sdk-go/v2/event/datacodec"
+	"github.com/ian-mi/sdk-go/v2/event/datacodec"
 )
 
 // SetData encodes the given payload with the given content type.

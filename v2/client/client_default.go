@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/cloudevents/sdk-go/v2/protocol/http"
+	"github.com/ian-mi/sdk-go/v2/protocol/http"
 )
 
 // NewDefault provides the good defaults for the common case using an HTTP

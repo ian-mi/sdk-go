@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/binding/test"
-	"github.com/cloudevents/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding/test"
+	"github.com/ian-mi/sdk-go/v1/cloudevents"
 )
 
 type copyMessageTestCase struct {

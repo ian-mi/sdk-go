@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/event"
 
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/ian-mi/sdk-go/v2/types"
 	"github.com/google/go-cmp/cmp"
 )
 

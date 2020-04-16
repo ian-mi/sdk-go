@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/binding/format"
+	"github.com/ian-mi/sdk-go/v2/binding/spec"
+	"github.com/ian-mi/sdk-go/v2/event"
 )
 
 type eventFormatKey int

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
+	"github.com/ian-mi/sdk-go/v2/binding/spec"
 )
 
 var attributeHeadersMapping map[string]string

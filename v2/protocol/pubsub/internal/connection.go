@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/pubsub"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	pscontext "github.com/cloudevents/sdk-go/v2/protocol/pubsub/context"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	pscontext "github.com/ian-mi/sdk-go/v2/protocol/pubsub/context"
 )
 
 // Connection acts as either a pubsub topic or a pubsub subscription .

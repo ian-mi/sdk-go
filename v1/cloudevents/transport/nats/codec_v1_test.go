@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/cloudevents/sdk-go/v1/cloudevents"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/transport/nats"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	"github.com/ian-mi/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/transport/nats"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 )
 
 func TestCodecV1_Encode(t *testing.T) {

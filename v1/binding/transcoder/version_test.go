@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	cloudevents "github.com/cloudevents/sdk-go/v1"
-	"github.com/cloudevents/sdk-go/v1/binding"
-	"github.com/cloudevents/sdk-go/v1/binding/spec"
-	"github.com/cloudevents/sdk-go/v1/binding/test"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	cloudevents "github.com/ian-mi/sdk-go/v1"
+	"github.com/ian-mi/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding/spec"
+	"github.com/ian-mi/sdk-go/v1/binding/test"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 )
 
 func TestVersionTranscoder(t *testing.T) {

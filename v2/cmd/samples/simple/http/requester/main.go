@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
 )
 
 // Example is a basic data struct.
@@ -38,7 +38,7 @@ func main() {
 
 		event := cloudevents.NewEvent(version)
 		event.SetType("com.cloudevents.sample.sent")
-		event.SetSource("https://github.com/cloudevents/sdk-go/v2/cmd/samples/sender")
+		event.SetSource("https://github.com/ian-mi/sdk-go/v2/cmd/samples/sender")
 		_ = event.SetData(cloudevents.ApplicationJSON, data)
 
 		if resp, err := c.Request(ctx, event); err != nil {

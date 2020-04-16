@@ -3,7 +3,7 @@ package amqp
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v1/binding"
+	"github.com/ian-mi/sdk-go/v1/binding"
 	"pack.ag/amqp"
 )
 

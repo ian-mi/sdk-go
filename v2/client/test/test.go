@@ -6,12 +6,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/client"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/client"
+	"github.com/ian-mi/sdk-go/v2/event"
 )
 
 // SendReceive does client.Send(in), then it receives the message using client.StartReceiver() and executes outAssert

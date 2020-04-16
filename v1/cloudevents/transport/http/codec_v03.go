@@ -8,11 +8,11 @@ import (
 	"net/textproto"
 	"strings"
 
-	"github.com/cloudevents/sdk-go/v1/cloudevents"
-	cecontext "github.com/cloudevents/sdk-go/v1/cloudevents/context"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/observability"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/transport"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	"github.com/ian-mi/sdk-go/v1/cloudevents"
+	cecontext "github.com/ian-mi/sdk-go/v1/cloudevents/context"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/observability"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/transport"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 )
 
 // CodecV03 represents a http transport codec that uses CloudEvents spec v0.3

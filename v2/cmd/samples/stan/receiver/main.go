@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	ce_stan "github.com/cloudevents/sdk-go/v2/protocol/stan"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	ce_stan "github.com/ian-mi/sdk-go/v2/protocol/stan"
 	"log"
 )
 

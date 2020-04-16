@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	ce "github.com/cloudevents/sdk-go/v1/cloudevents"
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	ce "github.com/ian-mi/sdk-go/v1/cloudevents"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 )
 
 // Version provides meta-data for a single spec-version.

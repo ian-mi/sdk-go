@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
 	"github.com/gorilla/mux"
 )
 

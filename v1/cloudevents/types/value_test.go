@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v1/cloudevents/types"
+	"github.com/ian-mi/sdk-go/v1/cloudevents/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

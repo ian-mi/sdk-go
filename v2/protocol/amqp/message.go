@@ -8,9 +8,9 @@ import (
 
 	"github.com/Azure/go-amqp"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
+	"github.com/ian-mi/sdk-go/v2/binding"
+	"github.com/ian-mi/sdk-go/v2/binding/format"
+	"github.com/ian-mi/sdk-go/v2/binding/spec"
 )
 
 const prefix = "cloudEvents:" // Name prefix for AMQP properties that hold CE attributes.

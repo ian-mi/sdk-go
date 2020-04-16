@@ -12,11 +12,11 @@ import (
 	"github.com/Azure/go-amqp"
 	"github.com/google/uuid"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/client"
-	"github.com/cloudevents/sdk-go/v2/event"
-	ceamqp "github.com/cloudevents/sdk-go/v2/protocol/amqp"
-	"github.com/cloudevents/sdk-go/v2/types"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	"github.com/ian-mi/sdk-go/v2/client"
+	"github.com/ian-mi/sdk-go/v2/event"
+	ceamqp "github.com/ian-mi/sdk-go/v2/protocol/amqp"
+	"github.com/ian-mi/sdk-go/v2/types"
 )
 
 const (
@@ -86,7 +86,7 @@ func main() {
 	}
 
 	// Attributes for events
-	source, _ := url.Parse("https://github.com/cloudevents/sdk-go/v2/cmd/samples/sender")
+	source, _ := url.Parse("https://github.com/ian-mi/sdk-go/v2/cmd/samples/sender")
 	contentType := "application/json"
 
 	// Value for event data

@@ -8,10 +8,10 @@ import (
 	"github.com/Azure/go-amqp"
 	"github.com/stretchr/testify/require"
 
-	bindingtest "github.com/cloudevents/sdk-go/v2/binding/test"
-	clienttest "github.com/cloudevents/sdk-go/v2/client/test"
-	"github.com/cloudevents/sdk-go/v2/event"
-	protocolamqp "github.com/cloudevents/sdk-go/v2/protocol/amqp"
+	bindingtest "github.com/ian-mi/sdk-go/v2/binding/test"
+	clienttest "github.com/ian-mi/sdk-go/v2/client/test"
+	"github.com/ian-mi/sdk-go/v2/event"
+	protocolamqp "github.com/ian-mi/sdk-go/v2/protocol/amqp"
 )
 
 func TestSendEvent(t *testing.T) {

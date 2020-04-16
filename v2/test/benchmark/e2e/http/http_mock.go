@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"net/url"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	bindings "github.com/cloudevents/sdk-go/v2/protocol"
-	"github.com/cloudevents/sdk-go/v2/protocol/http"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	bindings "github.com/ian-mi/sdk-go/v2/protocol"
+	"github.com/ian-mi/sdk-go/v2/protocol/http"
 )
 
 type RoundTripFunc func(req *nethttp.Request) *nethttp.Response

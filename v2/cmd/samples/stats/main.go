@@ -14,14 +14,14 @@ import (
 	"go.opencensus.io/trace"
 	"go.opencensus.io/zpages"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/client"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/event/datacodec"
-	"github.com/cloudevents/sdk-go/v2/event/datacodec/json"
-	"github.com/cloudevents/sdk-go/v2/event/datacodec/xml"
-	"github.com/cloudevents/sdk-go/v2/types"
+	cloudevents "github.com/ian-mi/sdk-go/v2"
+	"github.com/ian-mi/sdk-go/v2/client"
+	cecontext "github.com/ian-mi/sdk-go/v2/context"
+	"github.com/ian-mi/sdk-go/v2/event"
+	"github.com/ian-mi/sdk-go/v2/event/datacodec"
+	"github.com/ian-mi/sdk-go/v2/event/datacodec/json"
+	"github.com/ian-mi/sdk-go/v2/event/datacodec/xml"
+	"github.com/ian-mi/sdk-go/v2/types"
 )
 
 func main() {
@@ -57,7 +57,7 @@ func gotEvent(event event.Event) {
 	fmt.Printf("%s: %d - %q\n", event.Context.GetType(), data.Sequence, data.Message)
 }
 
-var source = types.ParseURIRef("https://github.com/cloudevents/sdk-go/v2/cmd/samples/sender")
+var source = types.ParseURIRef("https://github.com/ian-mi/sdk-go/v2/cmd/samples/sender")
 
 func mainSender() {
 	ctx := cecontext.WithTarget(context.Background(), "http://localhost:8181/")

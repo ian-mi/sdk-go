@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/ian-mi/sdk-go/v2/types"
 )
 
 // Adhere to EventContextWriter
